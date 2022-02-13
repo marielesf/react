@@ -3,12 +3,14 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import AppArrow from "./AppArrow";
+import AppMap from "./AppMap";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
     <AppArrow />
+    <AppMap />
   </React.StrictMode>,
   document.getElementById("root")
 );
